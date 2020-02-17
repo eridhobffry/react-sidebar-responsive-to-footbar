@@ -1,4 +1,4 @@
-import React from "reacct";
+import React from "react";
 import { Content } from "../../styled_fragments/styled_content";
 import { posts } from "../../general/variables";
 

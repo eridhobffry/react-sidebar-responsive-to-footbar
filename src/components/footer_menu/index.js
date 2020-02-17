@@ -7,7 +7,7 @@ import {
 
 const FooterMenuComponent = ({ menuItems, styles }) => {
   return (
-    <FooterWrapper styled={styles}>
+    <FooterWrapper styles={styles}>
       {menuItems.map((item, i) => {
         return (
           <FooterMenu key={i}>

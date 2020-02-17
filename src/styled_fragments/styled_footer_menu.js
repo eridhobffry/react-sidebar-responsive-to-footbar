@@ -4,7 +4,7 @@ export const FooterWrapper = styled.div`
   display: flex;
   align-items: stretch;
   width: 100%;
-  height: ${props => props.styles.footerMenuHeight};
+  height: ${props => props.styles.footerMenuHeight}px;
   background-color: #333;
   color: white;
   position: fixed;

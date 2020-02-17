@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Sidebar = styled.div`
   height: 100vh;
-  width: ${props => props.styles.sidebarWidth};
+  width: ${props => props.styles.sidebarWidth}px;
   position: fixed;
   background-color: ${props => props.styles.black(0.8)};
   padding-top: 40px;
