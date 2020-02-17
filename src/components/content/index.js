@@ -2,7 +2,7 @@ import React from "react";
 import { Content } from "../../styled_fragments/styled_content";
 import { posts } from "../../general/variables";
 
-const ContentComponent = styles => {
+const ContentComponent = ({ styles }) => {
   return (
     <Content styles={styles}>
       {posts.map((post, i) => {
