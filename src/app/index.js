@@ -61,7 +61,7 @@ const App = () => {
       ) : (
         <Component.TopbarComponent styles={styles} />
       )}
-      <Component.ContentBackup styles={styles} />
+      <Component.ContentComponent styles={styles} />
 
       {!styles.showSidebar && (
         <Component.FooterMenuComponent menuItems={menuItems} styles={styles} />
